@@ -8,90 +8,67 @@
 
 <h1 align="center">New Dt Money</h1>
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/higoraln/new-dt-money?color=56BEB8">
+<div style="display: flex; gap: 5px; justify-content: center; margin-bottom: 10px;">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/higoraln/new-dt-money-2022?color=56BEB8" />
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/higoraln/new-dt-money?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/higoraln/new-dt-money-2022?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/higoraln/new-dt-money?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/higoraln/new-dt-money-2022?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/higoraln/new-dt-money?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/higoraln/new-dt-money-2022?color=56BEB8">
 
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/higoraln/new-dt-money?color=56BEB8" /> -->
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/higoraln/new-dt-money-2022?color=56BEB8" /> -->
 
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/higoraln/new-dt-money?color=56BEB8" /> -->
+  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/higoraln/new-dt-money-2022?color=56BEB8" /> -->
 
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/higoraln/new-dt-money?color=56BEB8" /> -->
-</p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  New Dt Money 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
+  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/higoraln/new-dt-money-2022?color=56BEB8" /> -->
+</div>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/higoraln" target="_blank">Author</a>
+  <a href="#technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#requirements">Requirements</a> &#xa0;
 </p>
 
 <br>
 
-## :dart: About ##
-
-Describe your project
-
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies ##
+<h2 id="technologies">Technologies</h2>
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
+- [RadixUI](https://www.radix-ui.com/)
+- [Phosphor-Icons](https://phosphoricons.com/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Styled Components](https://styled-components.com/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [zod](https://zod.dev/)
+- [Vite](https://vitejs.dev/)
 
-## :white_check_mark: Requirements ##
+<h2 id="requirements">Requirements</h2>
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/higoraln/new-dt-money
+$ git clone https://github.com/higoraln/new-dt-money-2022
 
 # Access
-$ cd new-dt-money
+$ cd new-dt-money-2022
 
 # Install dependencies
 $ yarn
 
-# Run the project
-$ yarn start
+# Run json Server
+$ yarn dev:server
 
-# The server will initialize in the <http://localhost:3000>
+# Run the project
+$ yarn dev
+
+# The server will initialize in the <http://localhost:5173>
 ```
 
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
-
-Made with :heart: by <a href="https://github.com/higoraln" target="_blank">{{YOUR_NAME}}</a>
+Made with <a href="https://github.com/higoraln" target="_blank">Higor Allan</a>
 
 &#xa0;
 
